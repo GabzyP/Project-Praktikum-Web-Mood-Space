@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact HQ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">📨 Kontak</div>
+            <ul class="nav-links">
+                <li><a href="music.html">Musik</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="quotes.html">Quotes</a></li>
+                <li><a href="about.html">About</a></li> 
+            </ul>
+</nav>
+    </nav>
+
+    <div class="container">
+        <h1 style="text-align: center; margin-bottom: 2rem;">Laporan</h1>
+
+        <div class="content-box" style="max-width: 600px; margin: 0 auto;">
+            <form id="contactForm">
+                <div class="form-group">
+                    <label>Nama Lengkap</label>
+                    <input type="text" id="namaLengkap" placeholder="Siapa Namamu?" required>
+                </div>
+                <div class="form-group">
+                    <label>Topik Laporan</label>
+                    <input type="text" placeholder="Apa yang kamu rasakan?" required>
+                </div>
+                <div class="form-group">
+                    <label>Pesan Laporan:</label>
+                    <textarea rows="5" placeholder="Apa yang perlu kami ketahui?" required></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Kirim Laporan</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="floating-menu">
+        <a href="index.html" class="float-btn" title="Console"><i class="fas fa-gamepad"></i></a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
