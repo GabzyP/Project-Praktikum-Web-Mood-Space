@@ -1,6 +1,3 @@
-/* =========================================
-   UTAMA
-========================================= */
 * {
     margin: 0;
     padding: 0;
@@ -16,7 +13,6 @@ body {
     position: relative;
 }
 
-/* BACKGROUND ANIMASI */
 body::before {
     content: '';
     position: fixed;
@@ -37,7 +33,6 @@ body::before {
     66% { transform: translate(-5%, 5%) rotate(240deg); }
 }
 
-/* PALET WARNA 9 KARAKTER  */
 :root { --c1: #FFFACD; --c2: #FFD700; --c3: #FFA500; }
 
 body.joy           { --c1: #fff59d; --c2: #fbc02d; --c3: #ff9800; color: #4a3b00; }
@@ -238,6 +233,7 @@ body.ennui #ennui-content, body.embarrassment #embarrassment-content, body.envy 
     font-weight: 500; 
     max-width: 800px;
     margin: 0 auto 0.5rem auto;
+    font-style: italic;
 }
 
 .start-btn {

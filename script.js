@@ -2,10 +2,10 @@ const allContent = {
     joy: {
         playlist: "1a9pbuitlC9JTB9egXLTbh",
         localTracks: [
-            { title: "Walking on Sunshine", artist: "Katrina", file: "music/joy1.mp3", cover: "https://placehold.co/200x200/FFD700/white?text=Sunshine" },
-            { title: "Happy Song", artist: "Pharrell", file: "music/joy2.mp3", cover: "https://placehold.co/200x200/orange/white?text=Happy" },
-            { title: "Good Vibes", artist: "Unknown", file: "music/joy3.mp3", cover: "https://placehold.co/200x200/yellow/white?text=Vibes" },
-            { title: "Summer Day", artist: "Band A", file: "music/joy4.mp3", cover: "https://placehold.co/200x200/gold/white?text=Summer" }
+            { title: "Kita Bikin Romantis", artist: "Maliq & D'Essentials", file: "assets/joy/KitaBikinRomantis.mp3", cover: "assets/joy/KitaBikinRomantis.png" },
+            { title: "Birds of a Feather", artist: "Billie Eilish", file: "assets/joy/BirdsofaFeather.mp3", cover: "assets/joy/BirdsofaFeather.png" },
+            { title: "Espresso", artist: "Sabrina Carpenter", file: "assets/joy/Espresso.mp3", cover: "assets/joy/Espresso.png" },
+            { title: "Pink Pony Club", artist: "Chappell Roan", file: "assets/joy/PinkPonyClub.mp3", cover: "assets/joy/PinkPonyClub.jpg" }
         ],
         longVideos: [
             { title: "Cara Selalu Bahagia 24 Jam", thumb: "https://placehold.co/600x337/FFD700/white?text=Joy+Vlog", channel: "Joy Official" },
@@ -30,10 +30,10 @@ const allContent = {
     sadness: {
         playlist: "4rrP67bDgEs7JedoFbezJY",
         localTracks: [
-            { title: "Multo", artist: "Cup of Joe", file: "sadness/multo.mp3", cover: "sadness/multo.png" },
-            { title: "Duvet", artist: "Boa", file: "sadness/duvet.mp3", cover: "sadness/duvet.png" },
-            { title: "How", artist: "Anneth", file: "sadness/how.mp3", cover: "sadness/how.png" },
-            { title: "Chandelier", artist: "Sia", file: "sadness/chandelier.mp3", cover: "sadness/chandelier.png" }
+            { title: "Multo", artist: "Cup of Joe", file: "assets/sadness/multo.mp3", cover: "assets/sadness/multo.png" },
+            { title: "Duvet", artist: "Boa", file: "assets/sadness/duvet.mp3", cover: "assets/sadness/duvet.png" },
+            { title: "Glimpse of Us", artist: "Joji", file: "assets/sadness/GlimpseOfUs.mp3", cover: "assets/sadness/GlimpseOfUs.jpg" },
+            { title: "Chandelier", artist: "Sia", file: "assets/sadness/chandelier.mp3", cover: "assets/sadness/chandelier.png" }
         ],
         longVideos: [
             { title: "Musik Hujan Untuk Tidur", thumb: "https://placehold.co/600x337/1565c0/white?text=Rain+Sounds", channel: "Sad Vibes" },
@@ -58,10 +58,10 @@ const allContent = {
     anger: {
         playlist: "0rAPmClBSMmbVp59HQqlZ8",
         localTracks: [
-            { title: "Metal Rock", artist: "Scream", file: "music/anger1.mp3", cover: "https://placehold.co/200x200/b71c1c/white?text=Rock" },
-            { title: "Fire Burn", artist: "Red", file: "music/anger2.mp3", cover: "https://placehold.co/200x200/d32f2f/white?text=Fire" },
-            { title: "Explosion", artist: "Boom", file: "music/anger3.mp3", cover: "https://placehold.co/200x200/f44336/white?text=Boom" },
-            { title: "Rage Mode", artist: "Angry", file: "music/anger4.mp3", cover: "https://placehold.co/200x200/e53935/white?text=Rage" }
+            { title: "Good 4 U", artist: "Olivia Rodrigo", file: "assets/anger/anger1.mp3", cover: "assets/anger/anger1.jpg" },
+            { title: "Bad Blood", artist: "Taylor Swift", file: "assets/anger/anger2.mp3", cover: "assets/anger/anger2.jpg" },
+            { title: "Numb", artist: "Linkin Park", file: "assets/anger/anger3.mp3", cover: "assets/anger/anger3.jpg" },
+            { title: "Vampire", artist: "Olivia Rodrigo", file: "assets/anger/anger4.mp3", cover: "assets/anger/anger4.jpg" }
         ],
         longVideos: [
             { title: "Kenapa Macet Terus?!", thumb: "https://placehold.co/600x337/b71c1c/white?text=MACET!!", channel: "Anger Vlogs" },
@@ -86,10 +86,10 @@ const allContent = {
     disgust: {
         playlist: "2z0NVQnPPIEjYxLmWwCTrp",
         localTracks: [
-            { title: "Sassy Beat", artist: "Style", file: "music/disgust1.mp3", cover: "https://placehold.co/200x200/1b5e20/white?text=Sassy" },
-            { title: "Ew No", artist: "Green", file: "music/disgust2.mp3", cover: "https://placehold.co/200x200/2e7d32/white?text=Ew" },
-            { title: "High Class", artist: "Elite", file: "music/disgust3.mp3", cover: "https://placehold.co/200x200/388e3c/white?text=Class" },
-            { title: "Standard", artist: "Judge", file: "music/disgust4.mp3", cover: "https://placehold.co/200x200/4caf50/white?text=Standard" }
+            { title: "Ew", artist: "Joji", file: "assets/disgust/disgust1.mp3", cover: "assets/disgust/disgust1.jpg" },
+            { title: "abcdefu", artist: "GAYLE", file: "assets/disgust/disgust2.mp3", cover: "assets/disgust/disgust2.jpg" },
+            { title: "Made You Look", artist: "Meghan Trainor", file: "assets/disgust/disgust3.mp3", cover: "assets/disgust/disgust3.jpg" },
+            { title: "Paint The Town Red", artist: "Doja Cat", file: "assets/disgust/disgust4.mp3", cover: "assets/disgust/disgust4.jpg" }
         ],
         longVideos: [
             { title: "Review Makanan Terburuk", thumb: "https://placehold.co/600x337/1b5e20/white?text=Gross+Food", channel: "Disgust Review" },
@@ -114,10 +114,10 @@ const allContent = {
     fear: {
         playlist: "4uk5KV5638VD7k3hIQbhdb",
         localTracks: [
-            { title: "Spooky", artist: "Ghost", file: "music/fear1.mp3", cover: "https://placehold.co/200x200/4a148c/white?text=Spooky" },
-            { title: "Panic", artist: "Run", file: "music/fear2.mp3", cover: "https://placehold.co/200x200/6a1b9a/white?text=Panic" },
-            { title: "Caution", artist: "Safe", file: "music/fear3.mp3", cover: "https://placehold.co/200x200/7b1fa2/white?text=Caution" },
-            { title: "Hide", artist: "Dark", file: "music/fear4.mp3", cover: "https://placehold.co/200x200/8e24aa/white?text=Hide" }
+            { title: "Creep", artist: "Radiohead", file: "assets/fear/fear1.mp3", cover: "assets/fear/fear1.jpg" },
+            { title: "Bury a Friend", artist: "Billie Eilish", file: "assets/fear/fear2.mp3", cover: "assets/fear/fear2.jpg" },
+            { title: "Takut", artist: "Idgitaf", file: "assets/fear/fear3.mp3", cover: "assets/fear/fear3.png" },
+            { title: "Marry On A Cross", artist: "Ghost", file: "assets/fear/fear4.mp3", cover: "assets/fear/fear4.jpg" }
         ],
         longVideos: [
             { title: "100 Hal Yang Bisa Salah", thumb: "https://placehold.co/600x337/4a148c/white?text=Danger+List", channel: "Safety First" },
@@ -142,10 +142,10 @@ const allContent = {
     anxiety: {
         playlist: "0rYmgDK8dBS1ekGkS6M59q",
         localTracks: [
-            { title: "Fast Beat", artist: "Nervous", file: "music/anxiety1.mp3", cover: "https://placehold.co/200x200/e65100/white?text=Fast" },
-            { title: "Overthinking", artist: "Mind", file: "music/anxiety2.mp3", cover: "https://placehold.co/200x200/ef6c00/white?text=Think" },
-            { title: "Shaking", artist: "Tremble", file: "music/anxiety3.mp3", cover: "https://placehold.co/200x200/f57c00/white?text=Shake" },
-            { title: "Worry", artist: "Future", file: "music/anxiety4.mp3", cover: "https://placehold.co/200x200/fb8c00/white?text=Worry" }
+            { title: "Overwhelmed", artist: "Royal & the Serpent", file: "assets/anxiety/anxiety1.mp3", cover: "assets/anxiety/anxiety1.jpg" },
+            { title: "Good Luck, Babe!", artist: "Chappell Roan", file: "assets/anxiety/anxiety2.mp3", cover: "assets/anxiety/anxiety2.jpg" },
+            { title: "Liability", artist: "Lorde", file: "assets/anxiety/anxiety3.mp3", cover: "assets/anxiety/anxiety3.jpg" },
+            { title: "Anti-Hero", artist: "Taylor Swift", file: "assets/anxiety/anxiety4.mp3", cover: "assets/anxiety/anxiety4.jpg" }
         ],
         longVideos: [
             { title: "Overthinking 101", thumb: "https://placehold.co/600x337/e65100/white?text=Overthinking", channel: "Brain Storm" },
@@ -170,10 +170,10 @@ const allContent = {
     ennui: {
         playlist: "1m4NZhbhVx5tUjap6iifza",
         localTracks: [
-            { title: "Lofi Chill", artist: "Bored", file: "music/ennui1.mp3", cover: "https://placehold.co/200x200/263238/white?text=Lofi" },
-            { title: "Slow Motion", artist: "Lazy", file: "music/ennui2.mp3", cover: "https://placehold.co/200x200/37474f/white?text=Slow" },
-            { title: "Silence", artist: "Quiet", file: "music/ennui3.mp3", cover: "https://placehold.co/200x200/455a64/white?text=Shh" },
-            { title: "Whatever", artist: "Meh", file: "music/ennui4.mp3", cover: "https://placehold.co/200x200/546e7a/white?text=Meh" }
+            { title: "Bed Chem", artist: "Sabrina Carpenter", file: "assets/ennui/ennui1.mp3", cover: "assets/ennui/ennui1.jpg" },
+            { title: "Sure Thing", artist: "Miguel", file: "assets/ennui/ennui2.mp3", cover: "assets/ennui/ennui2.jpg" },
+            { title: "Rehat", artist: "Kunto Aji", file: "assets/ennui/ennui3.mp3", cover: "assets/ennui/ennui3.jpg" },
+            { title: "Here", artist: "Alessia Cara", file: "assets/ennui/ennui4.mp3", cover: "assets/ennui/ennui4.jpg" }
         ],
         longVideos: [
             { title: "Tutorial Tidur Seharian", thumb: "https://placehold.co/600x337/263238/white?text=Sleep+Tutorial", channel: "Bored Club" },
@@ -198,10 +198,10 @@ const allContent = {
     embarrassment: {
         playlist: "6S3PLmIahilRazRU9AngRO",
         localTracks: [
-            { title: "Shy Melody", artist: "Blush", file: "music/shy1.mp3", cover: "https://placehold.co/200x200/880e4f/white?text=Shy" },
-            { title: "Hidden", artist: "Secret", file: "music/shy2.mp3", cover: "https://placehold.co/200x200/ad1457/white?text=Hide" },
-            { title: "Quiet Whisper", artist: "Soft", file: "music/shy3.mp3", cover: "https://placehold.co/200x200/c2185b/white?text=Soft" },
-            { title: "Oops", artist: "Sorry", file: "music/shy4.mp3", cover: "https://placehold.co/200x200/d81b60/white?text=Oops" }
+            { title: "Cringe", artist: "Matt Maeson", file: "assets/embarrassment/embarrassment1.mp3", cover: "assets/embarrassment/embarrassment1.jpg" },
+            { title: "Heather", artist: "Conan Gray", file: "assets/embarrassment/embarrassment2.mp3", cover: "assets/embarrassment/embarrassment2.jpg" },
+            { title: "Ballad of a Homeschooled Girl", artist: "Olivia Rodrigo", file: "assets/embarrassment/embarrassment3.mp3", cover: "assets/embarrassment/embarrassment3.jpg" },
+            { title: "Cheerleader", artist: "OMI", file: "assets/embarrassment/embarrassment4.mp3", cover: "assets/embarrassment/embarrassment4.jpg" }
         ],
         longVideos: [
             { title: "Momen Paling Memalukan", thumb: "https://placehold.co/600x337/880e4f/white?text=So+Awkward", channel: "Blushing TV" },
@@ -226,10 +226,10 @@ const allContent = {
     envy: {
         playlist: "4oNjLTFZRxclhRh6MhfRCf",
         localTracks: [
-            { title: "Jealousy", artist: "Green", file: "music/envy1.mp3", cover: "https://placehold.co/200x200/004d40/white?text=Jealous" },
-            { title: "I Want That", artist: "Wish", file: "music/envy2.mp3", cover: "https://placehold.co/200x200/00695c/white?text=Want" },
-            { title: "Cool Kid", artist: "Trend", file: "music/envy3.mp3", cover: "https://placehold.co/200x200/00796b/white?text=Cool" },
-            { title: "Copycat", artist: "Mirror", file: "music/envy4.mp3", cover: "https://placehold.co/200x200/00897b/white?text=Copy" }
+            { title: "Jealousy, Jealousy", artist: "Olivia Rodrigo", file: "assets/envy/envy1.mp3", cover: "assets/envy/envy1.jpg" },
+            { title: "Prom Queen", artist: "Beach Bunny", file: "assets/envy/envy2.mp3", cover: "assets/envy/envy2.jpg" },
+            { title: "Pacify Her", artist: "Melanie Martinez", file: "assets/envy/envy3.mp3", cover: "assets/envy/envy3.jpg" },
+            { title: "Kill Bill", artist: "SZA", file: "assets/envy/envy4.mp3", cover: "assets/envy/envy4.jpg" }
         ],
         longVideos: [
             { title: "Unboxing Barang Orang Lain", thumb: "https://placehold.co/600x337/004d40/white?text=Want+That!", channel: "Wishlist" },
